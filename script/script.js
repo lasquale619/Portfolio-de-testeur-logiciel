@@ -18,7 +18,7 @@ function handleNavbarCollapse() {
 
     navLinks.forEach((link) => {
         link.addEventListener("click", () => {
-            new bootstrap.Collapse(menuToggle).toggle();
+            bootstrap.Collapse.getOrCreateInstance(menuToggle).hide();
         });
     });
 }
