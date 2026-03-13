@@ -18,17 +18,23 @@
 }
 
 /* display background dark color on navbar scroll */
-.navbarScroll.navbarDark {
-    background-color: #5b5b5b;
+.navbarScroll {
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: background-color 0.3s ease;
+}
+
+.nav-link {
+    color: white !important;
 }
 
 /* hero background image */
 .bgimage {
     height: 100vh;
     max-height: 900px;
-    background: url("images/image1.jpg");
+    background: url("images/image.jpg");
     background-size: cover;
     position: relative;
+    
 }
 /* text css above hero image*/
 .hero_title {
@@ -44,6 +50,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 30px 50px;
+    border-radius: 10px;
+    
 }
 
 /* about */
