@@ -97,7 +97,9 @@ function createPortfolioFromJSON() {
                 }
             });
         });
+
 }
+
 
 // Call the functions to execute the code
 handleNavbarScroll();

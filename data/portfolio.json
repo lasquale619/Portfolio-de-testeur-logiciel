@@ -2,19 +2,39 @@
     {
         "image": "image1.png",
         "title": "Booki",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "text": "Intégration de la page a partir de la maquettes Figma en utilisant HTML et CSS.",
         "link": "#"
     },
     {
-        "image": "image2.png",
-        "title": "Mon Vieux grimoire",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "image": "TOMSEN.png",
+        "title": "TOMSEN",
+        "text": "Conception intégrale d'une stratégie de test produit.",
         "link": "#"
     },
     {
         "image": "image3.png",
         "title": "Kasa",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "text": "Application immobilière développée en React. Tests unitaires inclus.",
+        "link": "#"
+    },
+    {
+        "image": "Eco-bliss-bath.png",
+        "title": "Eco-bliss-bath",
+        "text": "Automatisation tests E2E et d'API. Validation des flux de commande.",
+        "link": "#"
+    },
+    {
+        "image": "724events.png",
+        "title": "724events",
+        "text": "Campagne de tests complète, remontée Jira et rédaction bilan de campagne.",
+        "link": "#"
+    },
+    {
+        "image": "Sophie Bluel.png",
+        "title": "Sophie Bluel",
+        "text": "Création d’une page web dynamique en utilisant JavaScript pour manipuler le DOM.",
         "link": "#"
     }
+
+    
 ]

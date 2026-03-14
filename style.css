@@ -1,10 +1,31 @@
 /******* GENERAL *******/
+
+:root {
+    --bs-font-sans-serif: 'Space Grotesk', sans-serif;
+    --bs-body-font-family: 'Space Grotesk', sans-serif;
+}
+body {
+    background-color: #000000 !important;
+    color: #ffffff;
+    font-family: 'Space Grotesk', sans-serif !important;
+}
+
+html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 /* spacing on all sections */
 #about,
 #skills,
 #portfolio,
 #contact {
-    margin-top: 4rem;
+    margin-top: 3.5rem;
     padding-top: 4rem;
 }
 #about h2,
@@ -12,34 +33,65 @@
 #portfolio h2,
 #contact h2 {
     margin-bottom: 3rem;
+    color: #ffffff;
+    font-size: clamp(2.5rem, 4vw, 3.5rem);
+    color: #198754;
 }
 #contact {
     padding-bottom: 4rem;
 }
 
 /* display background dark color on navbar scroll */
-.navbarScroll {
-    background-color: rgba(0, 0, 0, 0.7);
-    transition: background-color 0.3s ease;
+
+.navbar-brand {
+    font-weight: 700;
+    color: #198754 !important;
+    font-size: 1.8rem !important;
 }
 
 .nav-link {
     color: white !important;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover {
+    color: #198754 !important;
+}
+
+.nav-cta {
+    background-color: #198754;
+    color: #000000 !important;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-cta:hover {
+    background-color: transparent;
+    color: #ffffff !important;
+    border: 1px solid #198754;
 }
 
 /* hero background image */
 .bgimage {
     height: 100vh;
     max-height: 900px;
-    background: url("images/image.jpg");
     background-size: cover;
     position: relative;
     
 }
 /* text css above hero image*/
 .hero_title {
-    font-size: 4.5rem;
+    font-size: 6rem;
+    font-weight: 700;
 }
+
+.hero_title span {
+    background: linear-gradient(90deg, #198754, #c30505);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .hero_desc {
     font-size: 2rem;
 }
@@ -59,13 +111,29 @@
 /* about */
 .imageAboutPage {
     width: 100%;
+    aspect-ratio: 1 / 1; 
+    width: 100%;
+    object-fit: cover;    
 }
 .imageAboutPage {
     border-radius: 50%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border: 7px dotted #198754;
+    padding: 8px;
+    
+}
+
+#about p,
+#about li {
+    color: #dddddd;
+}
+
+#about .col-lg-8 p {
+    font-size: 1.9rem;
+    line-height: 1.2;
 }
 
 /* skills */
+
 .skillsText.card {
     height: 350px;
     cursor: pointer;
@@ -83,8 +151,20 @@
     text-align: center;
     width: 100%;
 }
-.card-title {
+
+.card {
+    background-color: #000000 !important;
+    border-color: #333333 !important;
+    color: #ffffff !important;
+}
+
+.card-body{
+    color: #000000 !important;
+}
+
+.card-title, .card-text {
     text-align: center;
+    color: #ffffff;
 }
 .card:hover .skillsIcon {
     color: #008000;
@@ -98,14 +178,56 @@
     text-align: center;
 }
 
+.portfolioContent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolioContent .card-img-top {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: fill;
+    background-color: #111111;
+    aspect-ratio: 16 / 9;
+}
+
+.portfolioContent .card-body {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 /* contact */
 .contactColumn {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #ffffff;
 }
 .contactColumn i {
     color: #198754;
+}
+
+
+@media (max-width: 768px) {
+    .hero_title {
+        font-size: 2.5rem;
+    }
+    .hero_desc {
+        font-size: 1.2rem;
+    }
+    .hero-text {
+        width: 90%;
+        padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+    #about .col-lg-8 {
+        margin-top: 2rem;
+    }
+}
+
 }
 
 /* footer */
