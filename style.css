@@ -199,12 +199,25 @@ html, body {
     justify-content: space-between;
 }
 /* contact */
-.contactColumn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #ffffff;
+.contactColumn{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    text-decoration:none;
 }
+
+.row {
+    justify-content: center;
+}
+
+.contactColumn:hover {
+    transform: translateY(-5px);
+    opacity: 0.9;
+    color: #198754;
+} 
+
 .contactColumn i {
     color: #198754;
 }

@@ -1,39 +1,39 @@
 [
     {
-        "image": "image1.png",
+        "image": "image1.webp",
         "title": "Booki",
         "text": "Intégration de la page a partir de la maquettes Figma en utilisant HTML et CSS.",
-        "link": "#"
+        "link": "https://github.com/lasquale619/Booki"
     },
     {
-        "image": "TOMSEN.png",
+        "image": "TOMSEN.webp",
         "title": "TOMSEN",
         "text": "Conception intégrale d'une stratégie de test produit.",
-        "link": "#"
+        "link": "https://github.com/lasquale619/TOMSEN"
     },
     {
-        "image": "image3.png",
+        "image": "image3.webp",
         "title": "Kasa",
         "text": "Application immobilière développée en React. Tests unitaires inclus.",
-        "link": "#"
+        "link": "https://github.com/lasquale619/Kasa-react"
     },
     {
-        "image": "Eco-bliss-bath.png",
+        "image": "Eco-bliss-bath.webp",
         "title": "Eco-bliss-bath",
         "text": "Automatisation tests E2E et d'API. Validation des flux de commande.",
-        "link": "#"
+        "link": "https://github.com/lasquale619/Automatisez-des-tests-pour-Eco-Bliss-Bath"
     },
     {
-        "image": "724events.png",
+        "image": "724events.webp",
         "title": "724events",
         "text": "Campagne de tests complète, remontée Jira et rédaction bilan de campagne.",
-        "link": "#"
+        "link": "https://github.com/lasquale619/724events"
     },
     {
-        "image": "Sophie Bluel.png",
+        "image": "Sophie Bluel.webp",
         "title": "Sophie Bluel",
         "text": "Création d’une page web dynamique en utilisant JavaScript pour manipuler le DOM.",
-        "link": "#"
+        "link": "https://github.com/lasquale619/Cr-ez-une-page-web-dynamique-avec-JavaScript"
     }
 
     
