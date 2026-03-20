@@ -74,7 +74,7 @@ html, body {
 
 /* hero background image */
 .bgimage {
-    height: 100vh;
+    height: 75vh;
     max-height: 900px;
     background-size: cover;
     position: relative;
@@ -128,7 +128,7 @@ html, body {
 }
 
 #about .col-lg-8 p {
-    font-size: 1.9rem;
+    font-size: 1.6rem;
     line-height: 1.2;
 }
 
