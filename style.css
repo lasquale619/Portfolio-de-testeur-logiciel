@@ -109,6 +109,11 @@ html, body {
 }
 
 /* about */
+
+.row .mt-4{
+    padding: inherit;
+}
+
 .imageAboutPage {
     width: 100%;
     aspect-ratio: 1 / 1; 
@@ -119,7 +124,14 @@ html, body {
     border-radius: 50%;
     border: 7px dotted #198754;
     padding: 8px;
+    height: 300px;
+    width: 300px;
     
+}
+
+.col-lg-4{
+    display: flex;
+    justify-content: center;
 }
 
 #about p,
