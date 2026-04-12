@@ -16,17 +16,17 @@
     },
     {
         "image": "gestion-de-projet.webp",
-        "title": "Gestion de projet",
-        "text": "Analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnelle, planification du projet"
+        "title": "Suivi de bugs avec Jira",
+        "text": "Création et gestion de tickets de bugs, suivi du cycle de vie des anomalies, priorisation des issues et collaboration avec les équipes de développement."
     },
     {
-        "image": "optimisation-et-debug.webp",
-        "title": "Optimisation et debug",
-        "text": "Identification des anomalies et correction d’un site existant, optimisation SEO et performance et publication d’un site en ligne"
+        "image": "postman.webp",
+        "title": "Tests API avec Postman",
+        "text": "Création et exécution de collections de tests API, validation des endpoints REST, vérification des codes de réponse et de la structure des données JSON."
     },
     {
         "image": "test.webp",
-        "title": "Test",
-        "text":  "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
+        "title": "Automatisation avec Cypress",
+        "text":  "Tests E2E automatisés, tests exploratoires et d'intégration, définition d'une stratégie de test, rédaction de cahiers de recette"
     }
 ]
