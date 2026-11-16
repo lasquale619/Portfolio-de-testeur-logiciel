@@ -1,56 +1,98 @@
 [
     {
-        "image": "playwright.webp",
+        "image": "v2/projet-playwright.webp",
         "title": "Playwright — Notes",
         "text": "Tests UI et API en TypeScript : Page Object Model, mocking réseau, CI GitHub Actions et résultats envoyés dans Squash TM.",
-        "link": "https://github.com/lasquale619/PlaywrightPractice"
+        "link": "https://github.com/lasquale619/PlaywrightPractice",
+        "tags": [
+            "Playwright",
+            "TypeScript",
+            "API",
+            "CI"
+        ]
     },
     {
-        "image": "Eco-bliss-bath.webp",
-        "title": "Eco-bliss-bath",
-        "text": "Automatisation tests E2E et d'API. Validation des flux de commande.",
-        "link": "https://github.com/lasquale619/Automatisez-des-tests-pour-Eco-Bliss-Bath"
+        "image": "v2/projet-eco-bliss-bath.webp",
+        "title": "Eco Bliss Bath",
+        "text": "22 tests Cypress (smoke, API, fonctionnels) sur une boutique en ligne, et une anomalie détectée sur l'API du panier.",
+        "link": "https://github.com/lasquale619/Automatisez-des-tests-pour-Eco-Bliss-Bath",
+        "tags": [
+            "Cypress",
+            "E2E",
+            "API",
+            "Docker"
+        ]
     },
     {
-        "image": "robot-framework.webp",
+        "image": "v2/projet-robot-framework.webp",
         "title": "Robot Framework — SauceDemo",
         "text": "Connexion, panier et commande avec Browser Library : tests data-driven, tags, keywords organisés par page, CI GitHub Actions.",
-        "link": "https://github.com/lasquale619/robot-framework-saucedemo"
+        "link": "https://github.com/lasquale619/robot-framework-saucedemo",
+        "tags": [
+            "Robot Framework",
+            "Data-driven",
+            "CI"
+        ]
     },
     {
-        "image": "cucumber.webp",
+        "image": "v2/projet-cucumber.webp",
         "title": "Playwright + Cucumber",
         "text": "Scénarios BDD en Gherkin (Scenario Outline, tags) exécutés avec Playwright, rapport HTML et captures en cas d'échec.",
-        "link": "https://github.com/lasquale619/Playwright-Cucumber"
+        "link": "https://github.com/lasquale619/Playwright-Cucumber",
+        "tags": [
+            "Playwright",
+            "Cucumber",
+            "BDD",
+            "CI"
+        ]
     },
     {
-        "image": "TOMSEN.webp",
+        "image": "v2/projet-tomsen.webp",
         "title": "TOMSEN",
-        "text": "Conception intégrale d'une stratégie de test produit.",
-        "link": "https://github.com/lasquale619/TOMSEN"
+        "text": "Revue des exigences, stratégie de test et cahier de recette de 93 cas de test répartis sur 6 sprints, pour une application bancaire mobile.",
+        "link": "https://github.com/lasquale619/TOMSEN",
+        "tags": [
+            "Stratégie de test",
+            "Cahier de recette",
+            "Exigences"
+        ]
     },
     {
-        "image": "724events.webp",
+        "image": "v2/projet-724events.webp",
         "title": "724events",
         "text": "Campagne de tests complète, remontée Jira et rédaction bilan de campagne.",
-        "link": "https://github.com/lasquale619/724events"
+        "link": "https://github.com/lasquale619/724events",
+        "tags": [
+            "Campagne de tests",
+            "Jira"
+        ]
     },
     {
-        "image": "image3.webp",
+        "image": "v2/projet-kasa.webp",
         "title": "Kasa",
         "text": "Application immobilière développée en React. Tests unitaires inclus.",
-        "link": "https://github.com/lasquale619/Kasa-react"
+        "link": "https://github.com/lasquale619/Kasa-react",
+        "tags": [
+            "React"
+        ]
     },
     {
-        "image": "image1.webp",
+        "image": "v2/projet-booki.webp",
         "title": "Booki",
         "text": "Intégration de la page a partir de la maquettes Figma en utilisant HTML et CSS.",
-        "link": "https://github.com/lasquale619/Booki"
+        "link": "https://github.com/lasquale619/Booki",
+        "tags": [
+            "HTML",
+            "CSS"
+        ]
     },
     {
-        "image": "Sophie Bluel.webp",
+        "image": "v2/projet-sophie-bluel.webp",
         "title": "Sophie Bluel",
         "text": "Création d’une page web dynamique en utilisant JavaScript pour manipuler le DOM.",
-        "link": "https://github.com/lasquale619/Cr-ez-une-page-web-dynamique-avec-JavaScript"
+        "link": "https://github.com/lasquale619/Cr-ez-une-page-web-dynamique-avec-JavaScript",
+        "tags": [
+            "JavaScript"
+        ]
     }
 ]

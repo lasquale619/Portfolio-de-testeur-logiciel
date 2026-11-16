@@ -1,47 +1,32 @@
 [
     {
-        "image": "playwright.webp",
+        "image": "v2/skill-test-manuel.webp",
+        "title": "Test manuel et recette",
+        "text": "Analyse des spécifications, plans de test, cahiers de recette, tests fonctionnels, exploratoires et de non-régression"
+    },
+    {
+        "image": "v2/skill-playwright.webp",
         "title": "Automatisation avec Playwright",
         "text": "Tests E2E et API en TypeScript, Page Object Model, fixtures, mocking réseau, exécution en CI avec GitHub Actions"
     },
     {
-        "image": "test.webp",
+        "image": "v2/skill-cypress.webp",
         "title": "Automatisation avec Cypress",
-        "text": "Tests E2E automatisés, tests exploratoires et d'intégration, définition d'une stratégie de test, rédaction de cahiers de recette"
+        "text": "Tests E2E et API, sélecteurs data-cy, interception réseau, rapports Mochawesome et couverture de code"
     },
     {
-        "image": "robot-framework.webp",
+        "image": "v2/skill-robot-framework.webp",
         "title": "Robot Framework",
         "text": "Tests par mots-clés avec Browser Library, tests data-driven, tags, organisation en fichiers .resource par page"
     },
     {
-        "image": "postman.webp",
+        "image": "v2/skill-postman.webp",
         "title": "Tests API avec Postman",
-        "text": "Création et exécution de collections de tests API, validation des endpoints REST, vérification des codes de réponse et de la structure des données JSON."
+        "text": "Collections de tests REST et SOAP, vérification des codes de réponse et des données, jeux de données générés par script"
     },
     {
-        "image": "gestion-de-projet.webp",
-        "title": "Suivi de bugs avec Jira",
-        "text": "Création et gestion de tickets de bugs, suivi du cycle de vie des anomalies, priorisation des issues et collaboration avec les équipes de développement."
-    },
-    {
-        "image": "squash-tm.webp",
-        "title": "Gestion des tests avec Squash TM",
-        "text": "Cas de test et campagnes, rattachement des tests automatisés et remontée automatique des résultats Playwright"
-    },
-    {
-        "image": "html-css.webp",
-        "title": "HTML - CSS",
-        "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS"
-    },
-    {
-        "image": "js.webp",
-        "title": "javascript",
-        "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires"
-    },
-    {
-        "image": "R.webp",
-        "title": "React",
-        "text": "Création d’applications React, création de composants et manipulation de leur état"
+        "image": "v2/skill-jira-squash.webp",
+        "title": "Jira et Squash TM",
+        "text": "Création et suivi des anomalies avec les développeurs, gestion des cas de test et des campagnes, remontée automatique des résultats"
     }
 ]

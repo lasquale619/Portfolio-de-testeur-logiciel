@@ -6,8 +6,8 @@ describe("Portfolio - Tests de navigation et contenu", () => {
 
     describe("Navbar", () => {
 
-        it("Le logo Bm. est visible et redirige vers l'accueil", () => {
-            cy.get("[data-cy=navbar-brand]").should("be.visible").and("contain", "Bm.");
+        it("Le logo MB. est visible et redirige vers l'accueil", () => {
+            cy.get("[data-cy=navbar-brand]").should("be.visible").and("contain", "MB.");
             cy.get("[data-cy=navbar-brand]").click();
             cy.url().should("include", "#");
         });
@@ -46,8 +46,22 @@ describe("Portfolio - Tests de navigation et contenu", () => {
     describe("Section Accueil", () => {
 
         it("Le titre et le sous-titre sont visibles", () => {
-            cy.get("[data-cy=hero-title]").should("be.visible").and("contain", "BOUGUELLID");
+            cy.get("[data-cy=hero-title]").should("be.visible").and("contain", "Bouguellid");
             cy.get("[data-cy=hero-desc]").should("be.visible").and("contain", "Testeur QA");
+            cy.get("[data-cy=hero-status]").should("be.visible").and("contain", "En recherche");
+        });
+
+        it("Les boutons de l'accueil mènent aux projets, au CV, à GitHub et à LinkedIn", () => {
+            cy.get("[data-cy=hero-projects]").should("be.visible").and("have.attr", "href", "#portfolio");
+            cy.get("[data-cy=hero-cv]").should("be.visible").and("have.attr", "href").and("include", ".pdf");
+            cy.get("[data-cy=hero-github]").should("have.attr", "href", "https://github.com/lasquale619");
+            cy.get("[data-cy=hero-linkedin]").should("have.attr", "href").and("include", "linkedin.com");
+        });
+
+        it("Le CV est disponible au téléchargement", () => {
+            cy.get("[data-cy=hero-cv]").invoke("attr", "href").then((href) => {
+                cy.request(href).its("status").should("eq", 200);
+            });
         });
     });
 
@@ -55,7 +69,7 @@ describe("Portfolio - Tests de navigation et contenu", () => {
 
         it("Le titre, l'image et le paragraphe sont présents", () => {
             cy.get("[data-cy=about-title]").should("be.visible").and("contain", "QUI SUIS-JE");
-            cy.get("[data-cy=about-image]").should("be.visible").and("have.attr", "src").and("include", "Bm");
+            cy.get("[data-cy=about-image]").should("be.visible").and("have.attr", "src").and("include", "photo-profil");
             cy.get("[data-cy=about-text]").should("be.visible").and("not.be.empty");
         });
     });
@@ -94,6 +108,13 @@ describe("Portfolio - Tests de navigation et contenu", () => {
                 cy.wrap($card).find("p").should("not.be.empty");
             });
         });
+
+        it("Chaque card a des badges d'outils et un lien vers GitHub", () => {
+            cy.get("[data-cy=portfolio-section] .portfolioContent").each(($card) => {
+                cy.wrap($card).find(".project-tags li").should("have.length.greaterThan", 0);
+                cy.wrap($card).find("a").should("contain", "Voir sur GitHub").and("have.attr", "href").and("include", "github.com/lasquale619");
+            });
+        });
     });
 
     describe("Section Contact", () => {
@@ -103,6 +124,8 @@ describe("Portfolio - Tests de navigation et contenu", () => {
             cy.get("[data-cy=contact-phone]").should("be.visible").and("have.attr", "href", "tel:+33662033204");
             cy.get("[data-cy=contact-email]").should("be.visible").and("have.attr", "href", "mailto:med.bouguellid@hotmail.com");
             cy.get("[data-cy=contact-linkedin]").should("be.visible").and("have.attr", "href").and("include", "linkedin.com");
+            cy.get("[data-cy=contact-github]").should("be.visible").and("have.attr", "href", "https://github.com/lasquale619");
+            cy.get("[data-cy=contact-cv]").should("be.visible").and("have.attr", "href").and("include", ".pdf");
         });
     });
 });

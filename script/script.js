@@ -25,7 +25,7 @@ function handleNavbarCollapse() {
 
 // Function to dynamically create HTML elements from the JSON file
 function createSkillsFromJSON() {
-    const container = document.querySelector("#skills .container");
+    const container = document.querySelector("#skills .skills-cards");
     let row = document.createElement("div");
     row.classList.add("row");
 
@@ -78,9 +78,10 @@ function createPortfolioFromJSON() {
                     <img class="card-img-top" src="images/${item.image}" alt="${item.title}" style="width:100%">
                     <div class="card-body">
                         <h3 class="card-title">${item.title}</h3>
+                        <ul class="project-tags">${(item.tags || []).map((tag) => `<li>${tag}</li>`).join("")}</ul>
                         <p class="card-text">${item.text}</p>
                         <div class="text-center">
-                            <a href="${item.link}" class="btn btn-success" target="_blank" rel="noopener noreferrer">Lien</a>
+                            <a href="${item.link}" class="btn btn-success" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Voir sur GitHub</a>
                         </div>
                     </div>
                 </div>

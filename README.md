@@ -23,12 +23,14 @@ Le site est lui-même **testé avant chaque mise en ligne** : à chaque push, Gi
 
 ## Ce que vérifient les tests du site
 
-[`cypress/e2e/portfolio.cy.js`](cypress/e2e/portfolio.cy.js) — 13 tests :
+[`cypress/e2e/portfolio.cy.js`](cypress/e2e/portfolio.cy.js) — 17 tests :
 
 - chaque lien du menu est visible et mène à la bonne section ;
-- les sections Accueil, À propos et Contact affichent leur contenu ;
+- l'accueil affiche le nom, le poste et la disponibilité, et ses boutons mènent aux projets, au CV, à GitHub et à LinkedIn ;
+- le CV est bien téléchargeable (réponse 200) ;
 - le nombre de cartes Compétences et Projets correspond aux fichiers `data/skills.json` et `data/portfolio.json`, et chaque carte a une image, un titre et un texte ;
-- les liens de contact (téléphone, email, LinkedIn) sont corrects.
+- chaque projet affiche ses badges d'outils et un lien vers son dépôt GitHub ;
+- les liens de contact (téléphone, email, LinkedIn, GitHub, CV) sont corrects.
 
 ## Lancer le site et les tests en local
 
@@ -40,7 +42,7 @@ npx cypress run          # dans un second terminal
 
 ## Modifier le contenu
 
-Les cartes sont générées en JavaScript à partir de deux fichiers JSON : pour ajouter un projet ou une compétence, il suffit d'ajouter une entrée dans [`data/portfolio.json`](data/portfolio.json) ou [`data/skills.json`](data/skills.json), avec son image dans `images/`.
+Les cartes sont générées en JavaScript à partir de deux fichiers JSON : pour ajouter un projet ou une compétence, il suffit d'ajouter une entrée dans [`data/portfolio.json`](data/portfolio.json) ou [`data/skills.json`](data/skills.json), avec son image dans `images/v2/` et ses badges d'outils (`tags`).
 
 ## Stack
 
