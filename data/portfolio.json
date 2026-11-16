@@ -1,21 +1,9 @@
 [
     {
-        "image": "image1.webp",
-        "title": "Booki",
-        "text": "Intégration de la page a partir de la maquettes Figma en utilisant HTML et CSS.",
-        "link": "https://github.com/lasquale619/Booki"
-    },
-    {
-        "image": "TOMSEN.webp",
-        "title": "TOMSEN",
-        "text": "Conception intégrale d'une stratégie de test produit.",
-        "link": "https://github.com/lasquale619/TOMSEN"
-    },
-    {
-        "image": "image3.webp",
-        "title": "Kasa",
-        "text": "Application immobilière développée en React. Tests unitaires inclus.",
-        "link": "https://github.com/lasquale619/Kasa-react"
+        "image": "playwright.webp",
+        "title": "Playwright — Notes",
+        "text": "Tests UI et API en TypeScript : Page Object Model, mocking réseau, CI GitHub Actions et résultats envoyés dans Squash TM.",
+        "link": "https://github.com/lasquale619/PlaywrightPractice"
     },
     {
         "image": "Eco-bliss-bath.webp",
@@ -24,10 +12,40 @@
         "link": "https://github.com/lasquale619/Automatisez-des-tests-pour-Eco-Bliss-Bath"
     },
     {
+        "image": "robot-framework.webp",
+        "title": "Robot Framework — SauceDemo",
+        "text": "Connexion, panier et commande avec Browser Library : tests data-driven, tags, keywords organisés par page, CI GitHub Actions.",
+        "link": "https://github.com/lasquale619/robot-framework-saucedemo"
+    },
+    {
+        "image": "cucumber.webp",
+        "title": "Playwright + Cucumber",
+        "text": "Scénarios BDD en Gherkin (Scenario Outline, tags) exécutés avec Playwright, rapport HTML et captures en cas d'échec.",
+        "link": "https://github.com/lasquale619/Playwright-Cucumber"
+    },
+    {
+        "image": "TOMSEN.webp",
+        "title": "TOMSEN",
+        "text": "Conception intégrale d'une stratégie de test produit.",
+        "link": "https://github.com/lasquale619/TOMSEN"
+    },
+    {
         "image": "724events.webp",
         "title": "724events",
         "text": "Campagne de tests complète, remontée Jira et rédaction bilan de campagne.",
         "link": "https://github.com/lasquale619/724events"
+    },
+    {
+        "image": "image3.webp",
+        "title": "Kasa",
+        "text": "Application immobilière développée en React. Tests unitaires inclus.",
+        "link": "https://github.com/lasquale619/Kasa-react"
+    },
+    {
+        "image": "image1.webp",
+        "title": "Booki",
+        "text": "Intégration de la page a partir de la maquettes Figma en utilisant HTML et CSS.",
+        "link": "https://github.com/lasquale619/Booki"
     },
     {
         "image": "Sophie Bluel.webp",
@@ -35,6 +53,4 @@
         "text": "Création d’une page web dynamique en utilisant JavaScript pour manipuler le DOM.",
         "link": "https://github.com/lasquale619/Cr-ez-une-page-web-dynamique-avec-JavaScript"
     }
-
-    
 ]
